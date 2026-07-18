@@ -1,0 +1,68 @@
+torne-se um especialista em tecnologia da informação, com grande experiência em arquitetura e desevolvimento de softwares. Preciso desenvolver um sistema de gerenciamento de tarefas para uma uiversidade. Vou lhe passar o cenário completo e preciso que você me ajude inicial com a parte de documentoação antes de seguir para construção do código.
+
+Antes de passar o cenário completo, alguns pontos importantes: o projeto precisa ser construído em camadas: frontend, backend, persistência de dados e banco de dados. Todas as camadas precisam ser criadas em Python. O projeto ele é algo mais siplificado porque será construido durante algumas aulas de métodos ágeis, utilizando como gestão ágil o método scrum com kanban.
+
+Agora sim, segue o cenário completo:
+Uma instituição educacional identificou dificuldades no acompanhamento das atividades realizadas por seus professores e equipes administrativas. Atualmente, as tarefas são organizadas utilizando diferentes ferramentas, como planilhas eletrônicas, e-mails, aplicativos de mensagens e anotações pessoais.
+Essa descentralização gera diversos problemas:
+atividades esquecidas;
+prazos perdidos;
+dificuldade para acompanhar o andamento das tarefas;
+ausência de responsáveis claramente definidos;
+baixa visibilidade para gestores;
+retrabalho entre membros da equipe.
+Após analisar o problema, decidiu-se desenvolver um Sistema de Controle de Tarefas que centralize todas essas informações em um único ambiente.
+O sistema deverá permitir que usuários criem tarefas, organizem atividades, acompanhem o progresso, definam prioridades, estabeleçam prazos e visualizem indicadores básicos de produtividade. Entretanto, como ocorre em projetos reais, nem todos os requisitos estão definidos desde o início.
+Durante a disciplina, novas necessidades serão apresentadas, funcionalidades poderão ser alteradas e prioridades poderão mudar. Cada equipe deverá utilizar o Scrum para adaptar o planejamento continuamente. Todo o desenvolvimento ocorrerá de forma incremental, por meio de Sprints.
+3. Escopo do Sistema
+O Sistema Web de Controle de Tarefas deverá permitir que um usuário organize suas atividades pessoais e profissionais por meio de um ambiente web intuitivo.
+Ao final do projeto, espera-se que o sistema possua, no mínimo, as seguintes funcionalidades:
+Cadastro e autenticação de usuários;
+Gerenciamento de tarefas;
+Definição de prioridades;
+Definição de prazos;
+Alteração do status das tarefas;
+Organização por categorias;
+Pesquisa de tarefas;
+Dashboard com indicadores;
+Histórico de atividades.
+
+ Backlog Inicial do Projeto
+O Product Backlog inicial será composto pelos seguintes Épicos.
+EP01 – Gerenciamento de Usuários
+Cadastro
+Login
+Recuperação de senha
+Perfil
+EP02 – Gerenciamento de Tarefas
+Criar tarefa
+Editar tarefa
+Excluir tarefa
+Alterar status
+Definir prioridade
+Definir prazo
+EP03 – Organização
+Categorias
+Etiquetas
+Filtros
+Pesquisa
+EP04 – Dashboard
+Indicadores
+Quantidade de tarefas
+Percentual concluído
+Tarefas em atraso
+EP05 – Colaboração
+Comentários
+Responsáveis
+Histórico de alterações
+EP06 – Documentação do Projeto
+Este épico contempla toda a documentação obrigatória.
+
+
+peço que entenda todo o cenário, avalie se precisa de mais informações e o próximo passo, assim que eu validar com você, vamos consturir os documentos gerais do sistema
+
+
+para front-end: streamlit
+para backend: fastapi
+para persistência SQLAlchemy
+Banco de Dados: SQLite
